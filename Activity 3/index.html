@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Calculator & Age Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Arithmetic Calculator</h1>
+    <div class="form-container">
+        <label for="num1">Enter first number:</label>
+        <input type="number" id="num1" step="any">
+        <br>
+        <label for="num2">Enter second number:</label>
+        <input type="number" id="num2" step="any">
+        <br>
+        <button onclick="calculate()">Calculate</button>
+    </div>
+
+    <div class="result" id="calc-result"></div>
+
+    <h2>Age Validator</h2>
+    <div class="form-container">
+        <label for="age">Enter your age:</label>
+        <input type="number" id="age">
+        <br>
+        <button onclick="validateAge()">Validate Age</button>
+    </div>
+
+    <div class="result" id="age-result"></div>
+
+    <script src="activity_3.js"></script>
+
+</body>
+</html>
